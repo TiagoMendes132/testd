@@ -9,11 +9,11 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 import os
-from google.colab import drive # this should not be included for deployment
+#from google.colab import drive # this should not be included for deployment
 
 # Mount Drive
-drive.mount('/drive') # remember: when deploying a dashboard. This should not be included
-os.chdir('/drive/MyDrive/Dashboard_Python') #should not be included for deployment
+#drive.mount('/drive') # remember: when deploying a dashboard. This should not be included
+#os.chdir('/drive/MyDrive/Dashboard_Python') #should not be included for deployment
 
 # -------------------------------------------------------------
 # LOAD DATA
